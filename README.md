@@ -13,6 +13,7 @@ https://www.python.org/downloads/release/python-360/
 - `googletrans`: Usada para realizar traduções automáticas.
 - `tqdm`: Biblioteca para exibir a barra de progresso durante o processo de tradução.
 - `os`: Biblioteca nativa do Python para manipulação de arquivos e diretórios.
+- `immutables`:  compatível com o Python 3.6
 
 ## :book: Instruções de Instalação:
 
@@ -20,6 +21,7 @@ No terminal ou prompt de comando, execute o seguinte comando para instalar as bi
 
 `python -m pip install --upgrade pip`
 `pip install googletrans==3.1.0a0 --trusted-host pypi.org --trusted-host pypi.python.org`
+`pip install "immutables<0.15"`
 `pip install tqdm`
 
 
