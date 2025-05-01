@@ -4,7 +4,9 @@ Este script traduz arquivos JSON automaticamente para o idioma de sua escolha. E
 
 ## :heavy_exclamation_mark: Pré-requisitos:
 
-Python: Certifique-se de ter o Python 3.6 ou superior instalado no seu sistema.
+Python: Certifique-se de ter o Python 3.6 
+
+https://www.python.org/downloads/release/python-360/
 
 ## :book: Instalações necessárias:
 
@@ -16,8 +18,9 @@ Python: Certifique-se de ter o Python 3.6 ou superior instalado no seu sistema.
 
 No terminal ou prompt de comando, execute o seguinte comando para instalar as bibliotecas externas necessárias:
 
-
-`pip install googletrans tqdm`
+`python -m pip install --upgrade pip`
+`pip install googletrans==3.1.0a0 --trusted-host pypi.org --trusted-host pypi.python.org`
+`pip install tqdm`
 
 
 `
