@@ -20,12 +20,15 @@ https://www.python.org/downloads/release/python-360/
 No terminal ou prompt de comando, execute o seguinte comando para instalar as bibliotecas externas necessárias:
 
 `python -m pip install --upgrade pip`
+
 `pip install googletrans==3.1.0a0 --trusted-host pypi.org --trusted-host pypi.python.org`
+
 `pip install "immutables<0.15"`
+
 `pip install tqdm`
 
 
-`
+
 ## :book: Principais Funcionalidades:
 
 Permite ao usuário escolher o idioma de destino para a tradução (por exemplo, pt_br, es, fr, de, etc.).
